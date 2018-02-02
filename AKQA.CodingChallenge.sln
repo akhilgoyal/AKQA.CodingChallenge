@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKQA.CodingChallenge", "AKQA.CodingChallenge\AKQA.CodingChallenge.csproj", "{2F0DF91E-A749-4079-B6F3-B41A5B5BEDB8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKQA.CodingChallenge.Service", "AKQA.CodingChallenge.Service\AKQA.CodingChallenge.Service.csproj", "{5AA26BB4-1947-4123-89FB-8C9531F0481A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKQA.CodingChallenge.Tests", "AKQA.CodingChallenge.Tests\AKQA.CodingChallenge.Tests.csproj", "{E3FBDDB2-7702-4E4E-997D-A800ABBFFA50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AKQA.CodingChallenge.Web", "AKQA.CodingChallenge.Web\AKQA.CodingChallenge.Web.csproj", "{4DE22ECF-5DAA-4B3F-9063-3300A8478663}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2F0DF91E-A749-4079-B6F3-B41A5B5BEDB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2F0DF91E-A749-4079-B6F3-B41A5B5BEDB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2F0DF91E-A749-4079-B6F3-B41A5B5BEDB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2F0DF91E-A749-4079-B6F3-B41A5B5BEDB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA26BB4-1947-4123-89FB-8C9531F0481A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA26BB4-1947-4123-89FB-8C9531F0481A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA26BB4-1947-4123-89FB-8C9531F0481A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA26BB4-1947-4123-89FB-8C9531F0481A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3FBDDB2-7702-4E4E-997D-A800ABBFFA50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3FBDDB2-7702-4E4E-997D-A800ABBFFA50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3FBDDB2-7702-4E4E-997D-A800ABBFFA50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3FBDDB2-7702-4E4E-997D-A800ABBFFA50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE22ECF-5DAA-4B3F-9063-3300A8478663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE22ECF-5DAA-4B3F-9063-3300A8478663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE22ECF-5DAA-4B3F-9063-3300A8478663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE22ECF-5DAA-4B3F-9063-3300A8478663}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
