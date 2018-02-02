@@ -7,5 +7,5 @@ Solution has 3 components:
 2. AKQA.CodingChallenge.Tests
 	* Unit Tests to provide test coverage for the API. 
 3. AKQA.CodingChallenge.Web
-	* MVC application to take input from the user and display results.
+	* MVC application to take input from the user and to display output.
 	* Autofac is used for dependency injection.
